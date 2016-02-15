@@ -3,9 +3,20 @@
 Plugon is a lightweight and simple loop engine which is made for building efficient and clean architecture for applications such as servers, clients, bots, etc.
 
 
+
+## Installation
+ 
+ 
+```sh
+$ pip install plugon
+```
+
+
+
 ## How it works?
 
 Functions will be contained by Plug objects. Plug objects will be registered to System object.
+
 
 ```python
 from plugon import System, Plug
@@ -41,6 +52,7 @@ class Application():
 ```
 
 
+
 ### Plug parameters
 
 - function (functionType): Function will be contained by Plug object. (Required)
@@ -49,7 +61,8 @@ class Application():
 - urgency (int): Plugs which are registered to system will be ordered by urgency (ASC) before loop. (Default: 10)
 - repeatable (bool): If repeatable is False, plug will run only once. (Default: True)
 - repeat (int): Plug's repetition count. (Default: None)
- 
+
+
 
 ## License
 
