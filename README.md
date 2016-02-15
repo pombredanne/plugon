@@ -48,7 +48,7 @@ class Application():
 - kwargs (dict): Function kwargs. (Default: {})
 - urgency (int): Plugs which are registered to system will be ordered by urgency (ASC) before loop. (Default: 10)
 - repeatable (bool): If repeatable is False, plug will run only once. (Default: True)
-- repeat (int): Plug's repetition count. (Defaul: None)
+- repeat (int): Plug's repetition count. (Default: None)
  
 
 ## License
