@@ -55,7 +55,7 @@ class Application():
 
 ### Plug parameters
 
-- function (functionType): Function will be contained by Plug object. (Required)
+- function (FunctionType): Function will be contained by Plug object. (Required)
 - args (tuple): Function args. (Default: ())
 - kwargs (dict): Function kwargs. (Default: {})
 - urgency (int): Plugs which are registered to system will be ordered by urgency (ASC) before loop. (Default: 10)
